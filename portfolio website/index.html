@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adarsh's portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/b5d08739ac.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Software Devloper</p>
+                <h1>
+                    Hi, I'm <span>Adarsh </span><br> From India
+                </h1>
+            </div>
+        </div>
+        
+    </div>
+    <div id="about"> 
+            <div class="container">
+                <div class="row">
+                    <div class="col1">
+                        <img src="image/IMG_20230416_192935.jpg" alt="">
+                    </div>
+                    <div class="col2">
+                        <h1 class="sub-title">About Me</h1>
+                        <p>"Undergrad in B.Tech Computer Science Engineering with a passion for technology and coding. Proficient in data structures, algorithms, and web development. Enthusiastic about continuous learning and growth in the field. Aspiring to create impactful projects and contribute to the tech community. Let's connect and build something amazing together!"</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links"onclick="opentab('achievements')">Certifications</p>
+                        <p class="tab-links"onclick="opentab('experience')">Experience</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>Programming Languages</span><br>C++ , Python , Html , Css , Javascript</li>
+                                <li><span>Frameworks</span><br>React js , Bootstrap , Tailwind Css</li>
+                                <li><span>Data Analyst</span><br>Ms Excel , Tableau , R Programming</li>
+                                <li><span>Data Structure And Algorithm
+                                </span></li>
+                                <li><span>Content writer</span></li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="achievements">
+                            <ul>
+                                <li><span>Dsa self paced course</span><br>(From Geeks for Geeks)-june 2022</li>
+                                <li><span>Full stack web devlopment</span><br>(From udemy)-Feb 2023 </li>
+                                <li><span>Data visualisation using tableau</span><br>(From coursera)-May 2023</li>
+                                <li><span>Introduction to R programming
+                                </span><br>(From coursera)-May 2023</li>
+                                <li><span></span></li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>Member of Google devloper Student club-Lpu</span><br>Aug 2021-present</li>
+                                <li><span>Chegg Math expert</span><br>june 2020-feb 2022</li>
+                                <li><span></span><br></li>
+                                <li><span>
+                                </span></li>
+                                <li><span></span></li>
+                            </ul>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- -----------services-------- -->
+        <div id="services">
+            <div class="container">
+                <h1 class="sub-title">My Services</h1>
+                <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Website Design</h2>
+                    <p>Transforming ideas into captivating online experiences through innovative website design that blends aesthetics with seamless functionality.</p>
+                <a href="#">learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Data structure And Algorithm</h2>
+                    <p>Optimizing data organization and retrieval with efficient data structures, enabling faster processing and enhanced performance for diverse applications.</p>
+                <a href="#">learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-magnifying-glass-chart"></i>
+                    <h2>Data Analysis</h2>
+                    <p>Unlocking valuable insights from complex datasets through advanced data analysis techniques, empowering data-driven decision-making for businesses and driving growth and efficiency.</p>
+                <a href="#">Learn more</a>
+                </div>
+                </div>
+            </div>
+        </div>
+        <!-- ------------------portfolio---------------- -->
+        <div id="portfolio">
+            <div class="container">
+                <h1 class="sub-title">My Work</h1>
+                <div class="worklist">
+                    <div class="work">
+                        <img src="image/Screenshot (33).png" alt="">
+                    <div class="layer"><h3>Portfolio Website</h3>
+                    <p>Discover my diverse portfolio website, a captivating showcase of my projects and skills, designed to inspire and leave a lasting impression.</p> <i class="fa-solid fa-arrow-up-right-from-square"></i></div>
+                   
+                </div>
+                    <div class="work">
+                        <img src="image/Screenshot (35).png" alt="">
+                        <div class="layer"><h3>
+                            Gym Website
+                        </h3>
+                        <p>
+                            Explore our dynamic gym website, a hub of fitness excellence offering a wide range of cutting-edge workouts, expert training, and a supportive community to help you achieve your fitness goals.
+                        </p>
+                        <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                        </div>
+
+                    </div>
+                    <div class="work">
+                        <img src="image/Screenshot (36).png" alt="">
+                    <div class="layer"><h3>Movie box </h3><p>Developed a dynamic website called "Movie Box" that allows users to access movie trailers and interact 
+                        with the platform</p><i class="fa-solid fa-arrow-up-right-from-square"></i>
+
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+        <!-- --------------------contact section---------------- -->
+        <div id="contact">
+            <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p>
+                    <i class="fa-solid fa-square-envelope"></i>-kumaradarsh7472@gmail.com 
+                </p>
+                <p><i  class="fa-solid fa-mobile-screen"></i> -7970997550</p>
+                <div class="social-icons">
+                <a  href="https://www.instagram.com/adarssssh__/"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/adarshkr1/"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/Kumaradarsh121"><i class="fa-brands fa-github"></i></a>
+            </div>
+            <a class="btn btn2"   href="image/adarshcv.pdf" download="">Download Cv</a>
+            </div>
+            <div class="contact-right">
+            <form name="submit-to-google-sheet">
+                <input type="text" name="Name" placeholder="Your-name" required>
+                <input type="email" name="email" placeholder="your email"required>
+                <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                <button type="submit" class="btn btn2">Submit</button>
+            </form>
+            <span id="msg"></span>
+        </div>
+        </div>
+        </div>
+        
+        <div class="copyright">
+            <p>Copyright © 2023 by Adarsh</p>
+           </div>
+    </div>
+    <script>
+        var tablinks=document.getElementsByClassName("tab-links");
+        var tabcontents=document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+        var sidemenu=document.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu.style.right="0";
+        }
+        function closemenu(){
+            sidemenu.style.right="-200px";
+        }
+
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbz_Ig5iyR3gCa3xp9jKAZXmdLnh8GFN3_TE_Cb2vhVr4UPpJHzt1JOXebRvG9DHC-GZYw/exec'
+        const form = document.forms['submit-to-google-sheet']
+      const msg=document.getElementById("msg")
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML="Message sent sucessfully"
+               setTimeout(function(){
+                msg.innerHTML = ""
+               },5000 )
+               form.reset()
+        })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+</html>
